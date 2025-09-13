@@ -1,4 +1,3 @@
-import React from "react";
 import TaskChart from "./TaskChart";
 
 export default function SubtaskSection({ task, subtaskText, setSubtaskText, handleAddSubtask, cancelSubtask, changeColor }) {

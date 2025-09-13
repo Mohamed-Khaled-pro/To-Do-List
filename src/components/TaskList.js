@@ -1,5 +1,3 @@
-import React from "react";
-import TaskChart from "./TaskChart";
 
 export default function TaskList({ filteredTasks, handleCancel, handleSubtask }) {
 
