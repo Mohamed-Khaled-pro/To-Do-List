@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+html{
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+  direction: rtl; 
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #f5f5f5; 
+  color: #333; 
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 700; 
+}
+
+p, span, li, input, button {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 400; 
+}
+.nameoftask-container {
+  background-color: #1e1e2f; 
+  padding: 20px 20px;
+  margin: 40px auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  max-width: 50%;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.nameoftask-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.nameoftask {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  word-break: break-word;
+  line-height: 1.4;
+}
+  .RightSec {
+    min-height: 100vh;
+  }
+@media (max-width: 500px) {
+  .RightSec {
+    min-height: 50vh;
+  }
+}
