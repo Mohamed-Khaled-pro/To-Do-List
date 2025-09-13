@@ -146,6 +146,8 @@ const changeColor = (subtaskIndex) => {
           {subtask && <SubtaskSection task={selectedTask} subtaskText={subtaskText} setSubtaskText={setSubtaskText} handleAddSubtask={handleAddSubtask} cancelSubtask={cancelSubtask} changeColor={changeColor} />}
         </div>
       </div>
-    </div>
+<footer dir="ltr" className="bg-dark text-light text-center py-2 mt-auto">
+&copy; {new Date().getFullYear()} Mohamed Khaled. جميع الحقوق محفوظة.
+</footer>    </div>
   );
 }
